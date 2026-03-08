@@ -1,0 +1,317 @@
+[
+    {
+        "id": 0,
+        "spotify_id": "40vsOMljwhHCibpToRULGo",
+        "country": "Albania",
+        "alpha_2": "AL",
+        "alpha_3": "ALB",
+        "artist": "Alis",
+        "title": "Nân"
+    },
+    {
+        "id": 1,
+        "spotify_id": null,
+        "country": "Armenia",
+        "alpha_2": "AM",
+        "alpha_3": "ARM",
+        "artist": null,
+        "title": null
+    },
+    {
+        "id": 2,
+        "spotify_id": "2pJ0Ji9nkohwuKMuyNhiwo",
+        "country": "Australia",
+        "alpha_2": "AU",
+        "alpha_3": "AUS",
+        "artist": "Delta Goodrem",
+        "title": "Eclipse"
+    },
+    {
+        "id": 3,
+        "spotify_id": "6P4wvzxJJZR7cVs1kFXL3q",
+        "country": "Austria",
+        "alpha_2": "AT",
+        "alpha_3": "AUT",
+        "artist": "Cosmó",
+        "title": "Tanzschein"
+    },
+    {
+        "id": 4,
+        "spotify_id": null,
+        "country": "Azerbaijan",
+        "alpha_2": "AZ",
+        "alpha_3": "AZE",
+        "artist": "Jiva",
+        "title": null
+    },
+    {
+        "id": 5,
+        "spotify_id": "1u0WYHtNFrAyzgybCDK861",
+        "country": "Belgium",
+        "alpha_2": "BE",
+        "alpha_3": "BEL",
+        "artist": "Essyla",
+        "title": "Dancing on the Ice"
+    },
+    {
+        "id": 6,
+        "spotify_id": "6SvlfrQYzUsW5UQUpUpy26",
+        "country": "Bulgaria",
+        "alpha_2": "BG",
+        "alpha_3": "BGR",
+        "artist": "Dara",
+        "title": "Bangaranga"
+    },
+    {
+        "id": 7,
+        "spotify_id": "3bTsAnErZrtBoUfORcTDTo",
+        "country": "Croatia",
+        "alpha_2": "HR",
+        "alpha_3": "HRV",
+        "artist": "Lelek",
+        "title": "Andromeda"
+    },
+    {
+        "id": 8,
+        "spotify_id": "1h2xmg6pH7r5pr2prKmWGc",
+        "country": "Cyprus",
+        "alpha_2": "CY",
+        "alpha_3": "CYP",
+        "artist": "Antigoni",
+        "title": "Jalla"
+    },
+    {
+        "id": 9,
+        "spotify_id": null,
+        "country": "Czechia",
+        "alpha_2": "CZ",
+        "alpha_3": "CZE",
+        "artist": null,
+        "title": null
+    },
+    {
+        "id": 10,
+        "spotify_id": "6KnX2pkecFELGtegM26ezf",
+        "country": "Denmark",
+        "alpha_2": "DK",
+        "alpha_3": "DNK",
+        "artist": "Søren Torpegaard Lund",
+        "title": "Før vi går hjem"
+    },
+    {
+        "id": 11,
+        "spotify_id": "3Js1kS52KXZsmRU6qFLH60",
+        "country": "Estonia",
+        "alpha_2": "EE",
+        "alpha_3": "EST",
+        "artist": "Vanilla Ninja",
+        "title": "Too Epic To Be True"
+    },
+    {
+        "id": 12,
+        "spotify_id": "0k2NxIVax5tnGSCeruFyEL",
+        "country": "Finland",
+        "alpha_2": "FI",
+        "alpha_3": "FIN",
+        "artist": "Linda Lampenius & Pete Parkkonen",
+        "title": "Liekinheitin"
+    },
+    {
+        "id": 13,
+        "spotify_id": "6cjjQg0SAlX7ahvYWuRPXz",
+        "country": "France",
+        "alpha_2": "FR",
+        "alpha_3": "FRA",
+        "artist": "Monroe",
+        "title": "Regarde"
+    },
+    {
+        "id": 14,
+        "spotify_id": null,
+        "country": "Georgia",
+        "alpha_2": "GE",
+        "alpha_3": "GEO",
+        "artist": "Bzikebi",
+        "title": null
+    },
+    {
+        "id": 15,
+        "spotify_id": "2j5D20BxsN7xl11KcnLyHP",
+        "country": "Germany",
+        "alpha_2": "DE",
+        "alpha_3": "DEU",
+        "artist": "Sarah Engels",
+        "title": "Fire"
+    },
+    {
+        "id": 16,
+        "spotify_id": "0LStLUCQgbv6WIEO2fFAO5",
+        "country": "Greece",
+        "alpha_2": "GR",
+        "alpha_3": "GRC",
+        "artist": "Akylas",
+        "title": "Ferto"
+    },
+    {
+        "id": 17,
+        "spotify_id": "22g4vKHFze17AV7vnequhG",
+        "country": "Israel",
+        "alpha_2": "IL",
+        "alpha_3": "ISR",
+        "artist": "Noam Bettan",
+        "title": "Michelle"
+    },
+    {
+        "id": 18,
+        "spotify_id": "5W1mx7Oeg2HxmASrth1nTt",
+        "country": "Italy",
+        "alpha_2": "IT",
+        "alpha_3": "ITA",
+        "artist": "Sal Da Vinci",
+        "title": "Per sempre sì"
+    },
+    {
+        "id": 19,
+        "spotify_id": "5jrN6fnBH38Bh0IQJnjiUJ",
+        "country": "Latvia",
+        "alpha_2": "LV",
+        "alpha_3": "LVA",
+        "artist": "Atvara",
+        "title": "Ēnā"
+    },
+    {
+        "id": 20,
+        "spotify_id": "1av4wp2KoCwn9P151n45WV",
+        "country": "Lithuania",
+        "alpha_2": "LT",
+        "alpha_3": "LTU",
+        "artist": "Lion Ceccah",
+        "title": "Sólo quiero más"
+    },
+    {
+        "id": 21,
+        "spotify_id": "4kYfZeuXXmCWLvhnPIjyr1",
+        "country": "Luxembourg",
+        "alpha_2": "LU",
+        "alpha_3": "LUX",
+        "artist": "Eva Marija",
+        "title": "Mother Nature"
+    },
+    {
+        "id": 22,
+        "spotify_id": "6xMZVKtQ76THTiJBntzmwz",
+        "country": "Malta",
+        "alpha_2": "MT",
+        "alpha_3": "MLT",
+        "artist": "Aidan",
+        "title": "Bella"
+    },
+    {
+        "id": 23,
+        "spotify_id": "1aco3k5pWdUjruX6vKgovf",
+        "country": "Moldova",
+        "alpha_2": "MD",
+        "alpha_3": "MDA",
+        "artist": "Satoshi",
+        "title": "Viva, Moldova"
+    },
+    {
+        "id": 24,
+        "spotify_id": "3PGOiXT00ISVuUgr14m079",
+        "country": "Montenegro",
+        "alpha_2": "ME",
+        "alpha_3": "MNE",
+        "artist": "Tamara Živković",
+        "title": "Nova Zora"
+    },
+    {
+        "id": 25,
+        "spotify_id": "0BDJRKqx8Qj6EmM5o9P5Vr",
+        "country": "Norway",
+        "alpha_2": "NO",
+        "alpha_3": "NOR",
+        "artist": "Jonas Lovv",
+        "title": "Ya ya ya"
+    },
+    {
+        "id": 26,
+        "spotify_id": "7yT5rUvzEQh60Olh2GXShd",
+        "country": "Poland",
+        "alpha_2": "PL",
+        "alpha_3": "POL",
+        "artist": "Alicja",
+        "title": "Pray"
+    },
+    {
+        "id": 27,
+        "spotify_id": "03Oz6PWplRogAQJgnFuoJ7",
+        "country": "Portugal",
+        "alpha_2": "PT",
+        "alpha_3": "PRT",
+        "artist": "Bandidos do Cante",
+        "title": "Rosa"
+    },
+    {
+        "id": 28,
+        "spotify_id": "0itI8ykSUDp4dfwiHY6fnw",
+        "country": "Romania",
+        "alpha_2": "RO",
+        "alpha_3": "ROU",
+        "artist": "Alexandra Căpitănescu",
+        "title": "Choke Me"
+    },
+    {
+        "id": 29,
+        "spotify_id": "5fYAsg12ms7UkZLtEmS4J6",
+        "country": "San Marino",
+        "alpha_2": "SM",
+        "alpha_3": "SMR",
+        "artist": "Senhit",
+        "title": "Superstar"
+    },
+    {
+        "id": 30,
+        "spotify_id": "3cnVAUGWZcXNqojO8PfYOu",
+        "country": "Serbia",
+        "alpha_2": "RS",
+        "alpha_3": "SRB",
+        "artist": "Lavina",
+        "title": "Kraj mene"
+    },
+    {
+        "id": 31,
+        "spotify_id": "1XmLPHkuv95o5NUodggzfv",
+        "country": "Sweden",
+        "alpha_2": "SE",
+        "alpha_3": "SWE",
+        "artist": "Felicia",
+        "title": "My System"
+    },
+    {
+        "id": 32,
+        "spotify_id": null,
+        "country": "Switzerland",
+        "alpha_2": "CH",
+        "alpha_3": "CHE",
+        "artist": "Veronica Fusaro",
+        "title": null
+    },
+    {
+        "id": 33,
+        "spotify_id": "52IlNxHUoQ3ZZyw9atSGVN",
+        "country": "Ukraine",
+        "alpha_2": "UA",
+        "alpha_3": "UKR",
+        "artist": "Leléka",
+        "title": "Ridnym"
+    },
+    {
+        "id": 34,
+        "spotify_id": "26xlJAlQoCMbnAWd0sGCQf",
+        "country": "United Kingdom",
+        "alpha_2": "GB",
+        "alpha_3": "GBR",
+        "artist": "Look Mom No Computer",
+        "title": "Eins, Zwei, Drei"
+    }
+]
