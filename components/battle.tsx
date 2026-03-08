@@ -54,15 +54,15 @@ export default function BattleView({ songs }: { songs: Song[] }) {
         <>
             {!ranking && (
                 <>
-                    <h1 className="text-4xl w-1/2 text-center m-5">Welcome to ESC 2026 favorite sorter!</h1>
-                    <Button onClick={start} variant="ghost" className="text-3xl p-8 hover:cursor-pointer border-5 border-white rounded-2xl">Start sorting</Button>
+                    <h1 className="text-4xl max-sm:text-2xl w-1/2 text-center m-5">Welcome to ESC 2026 song sorter!</h1>
+                    <Button onClick={start} variant="ghost" className="text-3xl p-8 hover:cursor-pointer border-1 border-white rounded-2xl">Start sorting</Button>
                 </>
             )}
             {battle && (
                 <>
-                    <h1 className="text-3xl mt-10">Battle no. {battleCnt}:</h1>
+                    <h1 className="text-3xl mt-10 max-sm:mt-0">Battle no. {battleCnt}:</h1>
                     <h2 className="text-xl text-zinc-500 mb-10">You are {pct}% done.</h2>
-                    <div className="items-center justify-center grid grid-cols-2 gap-5 w-1/2 hover:cursor-pointer">
+                    <div className="items-center justify-center grid grid-cols-2 max-lg:flex max-lg:flex-col gap-5 w-1/2 max-md:w-full hover:cursor-pointer">
                         <Card onClick={() => choose(battle[0])} className="pb-0 active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl">
                             <CardHeader className="flex flex-row items-center">
                                 <Image src={`/hearts/Eurovision_2026_heart_-_${battle[0].country.replace(" ", "_")}.svg`} alt={battle[0].country} width={48} height={50} />
@@ -108,7 +108,7 @@ export default function BattleView({ songs }: { songs: Song[] }) {
             )}
             {ranked && (
                 <>
-                    <h1 className="text-4xl w-1/2 text-center m-5">Your final ranking:</h1>
+                    <h1 className="text-4xl max-sm:text-2xl w-1/2 max-sm:w-full text-center m-5">Your final ranking:</h1>
                     <div className="flex flex-col gap-2">
                         {ranked.map((song, index) => {
                             const styles = [
