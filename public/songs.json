@@ -42,7 +42,7 @@
         "alpha_2": "AZ",
         "alpha_3": "AZE",
         "artist": "Jiva",
-        "title": null
+        "title": "Just Go"
     },
     {
         "id": 5,
@@ -51,7 +51,7 @@
         "alpha_2": "BE",
         "alpha_3": "BEL",
         "artist": "Essyla",
-        "title": "Dancing on the Ice"
+        "title": "Dancing on the ice"
     },
     {
         "id": 6,
@@ -78,7 +78,7 @@
         "alpha_2": "CY",
         "alpha_3": "CYP",
         "artist": "Antigoni",
-        "title": "Jalla"
+        "title": "JALLA"
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "alpha_2": "DK",
         "alpha_3": "DNK",
         "artist": "Søren Torpegaard Lund",
-        "title": "Før vi går hjem"
+        "title": "Før Vi Går Hjem"
     },
     {
         "id": 11,
@@ -186,7 +186,7 @@
         "alpha_2": "LT",
         "alpha_3": "LTU",
         "artist": "Lion Ceccah",
-        "title": "Sólo quiero más"
+        "title": "Sólo Quiero Más"
     },
     {
         "id": 21,
@@ -231,7 +231,7 @@
         "alpha_2": "NO",
         "alpha_3": "NOR",
         "artist": "Jonas Lovv",
-        "title": "Ya ya ya"
+        "title": "Ya Ya Ya"
     },
     {
         "id": 26,

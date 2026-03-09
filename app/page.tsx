@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
       <div className="flex flex-col min-h-screen items-center justify-center">
-        <Image src="/eurovision-logo-2026.png" alt="logo" width={600} height={150} className="mb-20 max-lg:hidden" />
+        <Image src="/eurovision-logo-2026.png" alt="logo" width={0} height={0} sizes="50vw" className="w-1/2 h-auto mt-10 mb-5" />
         <BattleView songs={songs} />
       </div>
   );

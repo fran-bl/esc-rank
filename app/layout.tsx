@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${singingSans.className} antialiased`}
+        className={`${singingSans.className} antialiased text-[#f3266a]`}
       >
         {children}
       </body>
