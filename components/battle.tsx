@@ -95,15 +95,17 @@ export default function BattleView({ songs }: { songs: Song[] }) {
                                 <p className="text-3xl font-bold">{battle[0].title}</p>
                                 <p className="text-lg text-zinc-500">{battle[0].artist}</p>
                             </CardContent>
-                            <div onClick={e => e.stopPropagation()} className="relative">
-                                {!iframeLoaded[0] && <div className="absolute inset-0 z-10" />}
-                                <iframe
-                                    src={`https://open.spotify.com/embed/track/${battle[0].spotify_id}?utm_source=generator`}
-                                    width="100%"
-                                    height="80"
-                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                                    onLoad={() => setIframeLoaded(prev => [true, prev[1]])}
-                                />
+                            <div onClick={e => e.stopPropagation()} className="relative" style={{ height: 80 }}>
+                                {battle[0].spotify_id && <>
+                                    {!iframeLoaded[0] && <div className="absolute inset-0 z-10" />}
+                                    <iframe
+                                        src={`https://open.spotify.com/embed/track/${battle[0].spotify_id}?utm_source=generator`}
+                                        width="100%"
+                                        height="80"
+                                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                        onLoad={() => setIframeLoaded(prev => [true, prev[1]])}
+                                    />
+                                </>}
                             </div>
                         </Card>
                         <Card onClick={() => choose(battle[1])} className="pb-0 w-full active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl text-[#f3266a]">
@@ -115,15 +117,17 @@ export default function BattleView({ songs }: { songs: Song[] }) {
                                 <p className="text-3xl font-bold">{battle[1].title}</p>
                                 <p className="text-lg text-zinc-500">{battle[1].artist}</p>
                             </CardContent>
-                            <div onClick={e => e.stopPropagation()} className="relative">
-                                {!iframeLoaded[1] && <div className="absolute inset-0 z-10" />}
-                                <iframe
-                                    src={`https://open.spotify.com/embed/track/${battle[1].spotify_id}?utm_source=generator`}
-                                    width="100%"
-                                    height="80"
-                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                                    onLoad={() => setIframeLoaded(prev => [prev[0], true])}
-                                />
+                            <div onClick={e => e.stopPropagation()} className="relative" style={{ height: 80 }}>
+                                {battle[1].spotify_id && <>
+                                    {!iframeLoaded[1] && <div className="absolute inset-0 z-10" />}
+                                    <iframe
+                                        src={`https://open.spotify.com/embed/track/${battle[1].spotify_id}?utm_source=generator`}
+                                        width="100%"
+                                        height="80"
+                                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                        onLoad={() => setIframeLoaded(prev => [prev[0], true])}
+                                    />
+                                </>}
                             </div>
                         </Card>
                     </div>
