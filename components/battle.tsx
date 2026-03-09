@@ -145,7 +145,7 @@ export default function BattleView({ songs }: { songs: Song[] }) {
                             ]
 
                             return (
-                                <Card key={index} className={`flex flex-row px-5 py-2 items-center bg-linear-to-r from-black/40 ${styles[index] ? styles[index] : (index >= 3 && index < 10) ? "to-blue-400/40" : "to-black/40"} bg-opacity-40 backdrop-blur-md border border-white/15 rounded-xl text-[#f3266a]`}>
+                                <Card key={index} className={`flex flex-row px-5 py-2 items-center bg-linear-to-r from-black/40 ${styles[index] ? styles[index] : (index >= 3 && index < 10) ? "to-blue-400/40" : "to-black/40"} bg-opacity-80 backdrop-blur-md border border-white/15 rounded-xl text-[#f3266a]`}>
                                     <p className="text-3xl w-10 max-sm:w-7">{index + 1}.</p>
                                     <Image src={`/hearts/Eurovision_2026_heart_-_${song.country.replace(" ", "_")}.svg`} alt={song.country} width={48} height={50} />
                                     <p className="text-lg w-10 max-sm:hidden">{song.alpha_3}</p>

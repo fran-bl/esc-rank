@@ -4,8 +4,8 @@ import Image from "next/image";
 import { fetchSongs } from "./actions";
 
 
-export default function Home() {
-  const songs: Song[] = fetchSongs()
+export default async function Home() {
+  const songs: Song[] = await fetchSongs()
 
   return (
       <div className="flex flex-col min-h-screen items-center justify-center">

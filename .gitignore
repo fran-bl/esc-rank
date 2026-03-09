@@ -12,7 +12,6 @@
 
 # testing
 /coverage
-lib/mock.json
 
 # next.js
 /.next/
