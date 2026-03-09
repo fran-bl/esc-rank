@@ -61,9 +61,9 @@ export default function BattleView({ songs }: { songs: Song[] }) {
             {battle && (
                 <>
                     <h1 className="text-3xl mt-10 max-sm:mt-0">Battle no. {battleCnt}:</h1>
-                    <h2 className="text-xl text-zinc-500 mb-10">You are {pct}% done.</h2>
-                    <div className="items-center justify-center grid grid-cols-2 max-lg:flex max-lg:flex-col gap-5 w-1/2 max-md:w-full hover:cursor-pointer">
-                        <Card onClick={() => choose(battle[0])} className="pb-0 active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl">
+                    <h2 className="text-xl text-zinc-500 mb-10 max-sm:mb-0">You are {pct}% done.</h2>
+                    <div className="items-center justify-center grid grid-cols-2 max-lg:flex max-lg:flex-col gap-5 w-1/2 max-md:w-full m-5 hover:cursor-pointer">
+                        <Card onClick={() => choose(battle[0])} className="pb-0 w-full active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl">
                             <CardHeader className="flex flex-row items-center">
                                 <Image src={`/hearts/Eurovision_2026_heart_-_${battle[0].country.replace(" ", "_")}.svg`} alt={battle[0].country} width={48} height={50} />
                                 <p className="text-xl font-bold">{battle[0].country}</p>
@@ -83,7 +83,7 @@ export default function BattleView({ songs }: { songs: Song[] }) {
                                 />
                             </div>
                         </Card>
-                        <Card onClick={() => choose(battle[1])} className="pb-0 active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl">
+                        <Card onClick={() => choose(battle[1])} className="pb-0 w-full active:scale-95 transition-transform bg-black/30 backdrop-blur-md border border-white/15 rounded-xl">
                             <CardHeader className="flex flex-row items-center">
                                 <Image src={`/hearts/Eurovision_2026_heart_-_${battle[1].country.replace(" ", "_")}.svg`} alt={battle[1].country} width={48} height={50} />
                                 <p className="text-xl font-bold">{battle[1].country}</p>
